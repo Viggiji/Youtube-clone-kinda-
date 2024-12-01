@@ -5,6 +5,5 @@ It took a lot of time Honestly
 I thought it would be done after i watch like 7 to 8 hrs of his video but dammmnn it took me time
 Doing it  after seeing him doing it and soo it took atleast atleast 16 hrs, divided into sets of sitting i gave
 I have a very loose focus so yeah it can be learned faster but yeah all-an-all a good experience
-But i want to now publish it as a website but it takes moneyyyyy... 
-If anyone knows then please suggest how to and am offfff
+Would start the javascript course shortly and lets see how the future unfolds
 Thanks for reading me brag about my first project...
