@@ -1,0 +1,155 @@
+p{
+  margin: 0px;
+}
+/* Use ctrl f to search for a particular property*/
+body{
+  font-family: Roboto, Arial;
+  padding-top: 70px;
+  padding-left: 85px;
+  background-color: rgb(246, 246, 246);
+  padding-right: 24px;
+}
+.header{
+  margin: 0px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  height: 57px;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  border-bottom: 1px;
+  border-bottom-color: rgb(210, 210, 210);
+  border-bottom-style:solid ;
+  z-index:50 ;
+}
+
+.lsec{
+  display: flex;
+  align-items: center;
+}
+.menu{
+  height: 24px;
+  margin-left: 24px;
+}
+.ytlog{
+  margin-left: 24px;
+  height: 20px;
+}
+
+.msec{
+  margin-left: 50px;
+  flex: 1;
+  max-width:450px ;
+  display: flex;
+  align-items: center;
+}
+.searchbox{
+  font-size: 16px;
+  line-height: 24px;
+  height: 36.667px;
+  padding-inline-start: 12px;
+  display: block;
+  border-color: rgb(212, 212, 212);
+  border-width: 0.667px;
+  padding: 0px;
+  flex: 1;
+  margin: 0;
+  padding-left: 12px;
+  padding-top: 1px;padding-bottom: 1px;padding-right: 2px;
+  box-shadow: inset  1px 2px 4px  rgba(0, 0, 0,0.05);
+  width: 0px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.srchicon{
+  width: 24px;
+}
+.srch{
+  height: 40px;
+  width: 64px;
+  border-width: 0.667px;
+  border-style: solid;
+  border-color:  rgb(211, 211, 211);
+  margin-left: -1px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: rgb(247, 247, 247);
+  position: relative;
+}
+.tooltip{
+  position: absolute;
+  background-color: rgba(110, 110, 110, 0.916);
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 2px;
+  bottom: -50px;                  /* This lets making a text appear while hovering*/
+  opacity: 0;           /* We first set the opacity to 0 and when hovered it is set to 1*/
+  transition: opacity 0.35s;        /* In the needed area*/
+  pointer-events: none; /* This is included so that text only appears when hovered */
+  justify-content: center;
+}                       
+.srch:hover .tooltip, .mic:hover .tooltip, .videoupload:hover .tooltip,
+.ytapps-icons:hover .tooltip,.bellbox:hover .tooltip {
+  opacity: 1; 
+  white-space: nowrap; /* Makes the written stuff fix in 1 whole line*/
+}
+.mic{
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;border-width: 0px; border-radius: 30px;
+  background-color: rgb(248, 248, 248);
+}
+.micicon{
+  height: 24px;
+}
+.rsec{
+  width: 182px;
+  height: 32px;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+.vidup,.ytapp{
+  height: 24px;
+  width: 24px;
+}
+.videoupload,.mic,.ytapps-icons,.bellbox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.bellbox{
+  position: relative;
+}
+.noticount{
+  position: absolute;
+  top: 0;
+  right: -4px;
+  font-size: 11px;
+  background-color: rgb(195, 0, 0);
+  color: white;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-color: white;
+  
+}
+.bellicon{
+  height: 24px;
+  width: 24px;
+}
+.mychlogo{
+  height: 32px;
+}
